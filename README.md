@@ -1,4 +1,4 @@
-# pitch_analysis
+This is a program for analysis of relative pitch.  You can sing (or play, or otherwise make musical noise) into your computer's microphone, and the program will infer what tuning you were likely at (whether concert pitch A440, or something else).  Then the program will calculate what the note frequencies you probably meant to sing were (given this tuning) and give you a measure of how much your take deviated from what it thinks you intended.  
 
 Dependencies:
 - easygui (for GUI)
@@ -19,4 +19,6 @@ Usage:
 - Stop recording before 10 seconds by hitting Control-C (must be in the terminal or command line)
 - Graphs will automatically be generated, and results (tuning and loss) saved in attempt_info.txt
 
+Notes:
+- You will have to create a directory named "audio" in the same directory as this project, to store audio files of attempts
 
